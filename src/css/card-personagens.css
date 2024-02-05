@@ -1,0 +1,97 @@
+
+
+
+
+.card-personagem{
+    width: 1300px;
+    height: 700px;
+    background-color: rgb(50, 140, 218);
+    margin-top: 15px;
+}
+
+.nome-pesonagem{
+    color: white;
+    display: flex;
+    
+    padding-left: 30px;
+    margin-top: 20px;
+   
+    font-family: 'Nunito', sans-serif;
+
+   
+}
+
+.imagem-personagem{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.fichas-personagens{
+display: flex;
+}
+
+.descricao-personagens{
+    width: 780px;
+    height: 400px;
+    background-color: rgb(99, 153, 223);
+    margin-top:15px; 
+    margin-left: 20px;
+    border-radius: 10px;
+  
+
+}
+
+
+.audio{
+    background-color: aquamarine;
+    width: 780px;
+    height: 185px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: -190px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.texto-descricao{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+   
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 720px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.nome-na-descricao{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.imagem-speaker{
+   margin-left:25px ;
+   margin-top: 40px;
+}
+
+.text-audio{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 10px;
+    font-size: 15px ;
+    font-weight: bold; 
+    margin-top: -10px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: 110px;
+    left: 510px;
+    color: white;
+}
