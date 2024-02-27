@@ -1,11 +1,11 @@
 
 
 body{
-    background-color: aqua; 
+    background-color: rgb(84, 204, 204); 
 }
 
 header{
-    background-color: aqua;
+    background-color:rgb(84, 204, 204) ;
     width: 100%;
     height: 130px;
     display: flex;
@@ -43,7 +43,7 @@ header .one-piece:hover {
 }
 
 main{
-    background-color: aqua;
+    background-color: rgb(84, 204, 204);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,10 +61,12 @@ main .cards{
     width: 250px;
     height: 350px;
     background-color: rgb(99, 153, 223);
+    transition: 0.2s ease-in-out;
 }
 
 main .cards:hover{
     background-color: black;
+    transform: scale(1.05);
 }
 
 main .nome-membros{
@@ -90,7 +92,7 @@ main .imagens-membros{
 }
 
 section .botao-musica{
-    background-color: aqua;
+    background-color: rgb(84, 204, 204);
     border: solid rgb(28, 121, 184);
     border-radius: 10px;
     cursor: pointer;
