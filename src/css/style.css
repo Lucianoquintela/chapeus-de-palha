@@ -111,3 +111,14 @@ a {
     text-decoration: none; 
 }
 
+.modoClaro {
+    background: rgb(3, 35, 45) 
+    no-repeat fixed center;  
+}
+
+#mudar-Tema-de-fundo{
+    background: transparent;
+    margin-left:130px;
+    border:none!important;
+   
+}
